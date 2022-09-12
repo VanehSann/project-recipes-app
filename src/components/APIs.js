@@ -12,7 +12,6 @@ async function fetchFood(param) {
 async function fetchDrink(param) {
   const response = await fetch(param);
   const drinkResponse = await response.json();
-
   return drinkResponse;
 }
 

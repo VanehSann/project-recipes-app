@@ -3,7 +3,6 @@ import { useHistory } from 'react-router-dom';
 import Header from '../components/Header';
 import blackHeartIcon from '../images/blackHeartIcon.svg';
 import shareIcon from '../images/shareIcon.svg';
-// import { doneRecipes } from '../new';
 
 const copy = require('clipboard-copy');
 
@@ -12,24 +11,18 @@ function RecipesDone() {
   const [copiedIt, setCopiedIt] = useState(false);
   const [itemTypeName, setItemTypeName] = useState('all');
 
-  const copyIt = ({ type, id }, { target }) => {
+  const copyIt = ({ type, id }) => {
     const limitTimeToRemove = 2000;
-    console.log(target);
     setCopiedIt(true);
     copy(`http://localhost:3000/${type}s/${id}`);
     setTimeout(() => { setCopiedIt(false); }, limitTimeToRemove);
   };
 
-  // Apagar essa linha dps
-  // localStorage.setItem('doneRecipes', JSON.stringify(doneRecipes));
   const doneRecipes = JSON.parse(localStorage.getItem('doneRecipes'));
-  // console.log(doneRecipes);
 
   return (
     <>
       <Header title="Done Recipes" />
-      {/* <h1 data-testid="page-title">Done Recipes</h1> */}
-      {/* Talvez criar um componente */}
       <button
         type="button"
         onClick={ () => setItemTypeName('all') }
@@ -53,7 +46,7 @@ function RecipesDone() {
       </button>
       { doneRecipes !== null && doneRecipes
         .filter((item) => item.type === (itemTypeName === 'all'
-          ? item.type : itemTypeName)) // melhorar lógica?
+          ? item.type : itemTypeName))
         .map((item, index) => (
           <div
             key={ index }
@@ -84,7 +77,7 @@ function RecipesDone() {
             </p>
             <button
               type="button"
-              onClick={ (event) => copyIt(item, event) }
+              onClick={ () => copyIt(item) }
             >
               <img
                 src={ shareIcon }
@@ -116,7 +109,6 @@ function RecipesDone() {
               { item.doneDate }
             </p>
             { copiedIt && <p>Link copied!</p> }
-            {/* Melhorar lógica do Copy? */}
           </div>
         ))}
     </>
