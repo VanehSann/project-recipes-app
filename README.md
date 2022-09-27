@@ -41,7 +41,7 @@ App de Receitas
     <a href="https://www.linkedin.com/in/rogerconsul/" target="_blank"> Róger Consul </a>,
     <a href="https://www.linkedin.com/in/fefcufe/" target="_blank"> Fernanda Ferreira </a>,
     <a href="https://www.linkedin.com/in/alex-horman-510094226/" target="_blank"> Alex Hornan </a> e 
-    <a href="https://www.linkedin.com/in/vitormemoria/" target="_blank"> Victor Memoria</a>
+    <a href="https://www.linkedin.com/in/vitormemoria/" target="_blank"> Vitor Memoria</a>
    como estudantes de desenvolvimento web na <b><a href="https://www.betrybe.com/" target="_blank"> Trybe </a></b>
         </p>
       </td>
