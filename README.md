@@ -90,8 +90,6 @@
 
 
 <div>
-
-  <blockquote>
     <h2 align="left">
 Tecnologias utilizadas ( Hard Skills )
 </h2>
@@ -113,13 +111,11 @@ Tecnologias utilizadas ( Hard Skills )
  - Metodologias Agéis: Kaban.
  </td></tr>
     </table>
-      </blockquote>
   </div>
   
 <br>
 <br>
 <div>
-  <blockquote>
     <h2 align="left">
 Layout
 </h2>
@@ -131,10 +127,12 @@ Layout
  MOBILE
  </td></tr> 
     </table>
-      </blockquote>
   </div>
   </section>
-
- <h1 align="center">  🇺🇸  </h1>
-
-<p align="center"> Soon </p>
+<div>
+<div align="center">
+  <img src="/logo.png" alt="recipes app project logo" width="300px"/>
+  <br>
+  <h1 align="center">  🇺🇸  </h1>
+  <p align="center"> Soon </p>
+</div>
