@@ -1,6 +1,6 @@
 <div align="center">
   <b>
-    <a href="#----">English version README 🇺🇸 </a> •
+    <a href="#---1">English version README 🇺🇸 </a> •
     <a href="#-app-de-receitas-------">README em Português 🇧🇷</a>
   </b>
 </div>
@@ -17,7 +17,7 @@
   <table align="center">
    <tr><p align="center">
     <b>
-      <td> <a href="#---sobre--">Sobre</a></td> 
+      <td> <a href="#----sobre--">Sobre</a></td> 
       <td>  <a href="#tecnologias-utilizadas--hard-skills-">Tecnologias Utilizadas</a></td> 
       <td>  <a href="#layout">Layout</a></td>
      </b>
