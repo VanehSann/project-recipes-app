@@ -128,7 +128,20 @@ Layout
     </table>
   </div>
   </section>
-<div>
+  <table align="center">
+   <tr><p align="center">
+    <b>
+      <td> Caso você queira rodara  aplicação localmente, rode os segintes comandos no seu terminal:</td> 
+      <td> <h1>Entre no site da aplicação</h1>
+        <br>
+        Tudo que você precisa é que digitar um email válido no campo de email, exemplo: `abc@abc.com` e digitar 6 caracteres no campo de senha, por exemplo: `123456` e você pode simular todo o processo da aplicação:
+        <img src="/demo.png" />
+        <br>
+       Site: <a href="https://appdereceitas.vercel.app/">https://appdereceitas.vercel.app/</a></td>
+     </b>
+    </p>
+   </tr>
+  </table>
 <div align="center">
   <img src="/logo.png" alt="recipes app project logo" width="300px"/>
   <br>
