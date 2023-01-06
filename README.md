@@ -131,7 +131,14 @@ Layout
   <table align="center">
    <tr><p align="center">
     <b>
-      <td> Caso você queira rodara  aplicação localmente, rode os segintes comandos no seu terminal:</td> 
+      <td> Caso você queira rodar a  aplicação localmente, rode os segintes comandos no seu terminal:
+      <br>
+       ```
+        git clone git@github.com:VanehSann/project-recipes-app.git
+        cd project-recipes-app
+        npm start
+        ```
+      </td> 
       <td> <h1>Entre no site da aplicação</h1>
         <br>
         Tudo que você precisa é que digitar um email válido no campo de email, exemplo: `abc@abc.com` e digitar 6 caracteres no campo de senha, por exemplo: `123456` e você pode simular todo o processo da aplicação:
