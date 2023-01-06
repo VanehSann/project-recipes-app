@@ -127,28 +127,25 @@ Layout
  </td></tr> 
     </table>
   </div>
-  </section>
-  <table align="center">
-   <tr><p align="center">
-    <b>
-      <td> Caso você queira rodar a  aplicação localmente, rode os segintes comandos no seu terminal:
-      <br>
-       ```
+
+  <div align="left">
+        <h1>Rode a  aplicação localmente</h1>      
+  <p> cole os seguintes comandos no seu terminal:</p>
+      
         git clone git@github.com:VanehSann/project-recipes-app.git
         cd project-recipes-app
         npm start
-        ```
-      </td> 
-      <td> <h1>Entre no site da aplicação</h1>
-        <br>
-        Tudo que você precisa é que digitar um email válido no campo de email, exemplo: `abc@abc.com` e digitar 6 caracteres no campo de senha, por exemplo: `123456` e você pode simular todo o processo da aplicação:
+        
+</div>
+        <br/>
+<div align="left">
+         <h1>Entre no site da aplicação</h1>
+        <p>Tudo que você precisa é que digitar um email válido no campo de email, exemplo: `abc@abc.com` e digitar 6 caracteres no campo de senha, por exemplo: `123456` e você pode simular todo o processo da aplicação:</p>
         <img src="/demo.png" />
         <br>
-       Site: <a href="https://appdereceitas.vercel.app/">https://appdereceitas.vercel.app/</a></td>
-     </b>
-    </p>
-   </tr>
-  </table>
+       <p>Site: <a href="https://appdereceitas.vercel.app/">https://appdereceitas.vercel.app/</a></p>
+   </div>
+    </section>
 <div align="center">
   <img src="/logo.png" alt="recipes app project logo" width="300px"/>
   <br>
