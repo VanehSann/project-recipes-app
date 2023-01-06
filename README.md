@@ -119,13 +119,15 @@ Tecnologias utilizadas ( Hard Skills )
     <h2 align="left">
 Layout
 </h2>
- <table>  
- <tr>
-  <td><img src="./recording2_2_-_1_.gif" /></td></tr>
- <tr><td> 
+   <details>
+    <summary>Demo da aplicação ( clique aqui para ver o video/gif )</summary>
+<img src="./recording2_2_-_1_.gif" />
+</details>
+
+   <details>
+    <summary>Demo 2 da aplicação ( clique aqui para ver o video/gif )</summary>
 <img src="./recording1_1_-_1_.gif" />
- </td></tr> 
-    </table>
+</details>
   </div>
 
   <div align="left">
@@ -142,7 +144,10 @@ Layout
          <h1>Entre no site da aplicação</h1>
   <p>Site: <a href="https://appdereceitas.vercel.app/">https://appdereceitas.vercel.app/</a></p>
         <p>Tudo que você precisa é que digitar um email válido no campo de email, exemplo: `abc@abc.com` e digitar 6 caracteres no campo de senha, por exemplo: `123456` e você pode simular todo o processo da aplicação:</p>
-        <img src="/demo.png" />
+      <details>
+    <summary>WEBSITE ( clique aqui para ver o video/gif/foto )</summary>
+<img src="./demo.png" />
+</details>
         <br>
    </div>
     </section>
