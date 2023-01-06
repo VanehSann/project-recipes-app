@@ -1,25 +1,28 @@
 
-<p align="center"><b>
- <a href="#----">English version README 🇺🇸 </a> •
- <a href="#-app-de-receitas-------">README em Português 🇧🇷</a>
+<div align="center">
+  <b>
+    <a href="#----">English version README 🇺🇸 </a> •
+    <a href="#-app-de-receitas-------">README em Português 🇧🇷</a>
   </b>
-</p>
-<h1 align="center">
-App de Receitas
-  <span> ( 🇧🇷 )  </span>
-</h1>
-
+</div>
 <br>
 <br>
-
+<div align="center">
+ <img src="/logo.png" alt="recipes app project logo" />
+ <h1> App de Receitas <span> ( 🇧🇷 )  </span> </h1>
+</div>
+<br>
+<br>
 <section>
   <table align="center">
-<tr><p align="center"><b> </td> 
-<td> <a href="#---sobre--">Sobre</a></td> 
-<td>  <a href="#tecnologias-utilizadas--hard-skills-">Tecnologias utilizadas</a></td> 
-<td>  <a href="#layout">Layout</a></td> 
-  </b>
-  </p></tr>
+   <tr><p align="center">
+    <b>
+      <td> <a href="#---sobre--">Sobre</a></td> 
+      <td>  <a href="#tecnologias-utilizadas--hard-skills-">Tecnologias utilizadas</a></td> 
+      <td>  <a href="#layout">Layout</a></td> 
+     </b>
+    </p>
+   </tr>
   </table>
   
   <br>
