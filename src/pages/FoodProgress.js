@@ -99,13 +99,13 @@ function FoodProgress() {
   };
 
   return (
-    <>
+    <section id="progress">
       <img
         data-testid="recipe-photo"
         alt="recipe-img"
         src={ recipeDetails.strFoodThumb }
       />
-      <div>
+      <div id="btnShareCopy">
         <h1 data-testid="recipe-title">
           { recipeDetails.strFood }
         </h1>
@@ -160,7 +160,7 @@ function FoodProgress() {
         Finish Recipes
       </button>
       { copiedIt && <p>Link copied!</p> }
-    </>
+    </section>
   );
 }
 

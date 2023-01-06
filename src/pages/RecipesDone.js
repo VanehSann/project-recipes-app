@@ -23,27 +23,29 @@ function RecipesDone() {
   return (
     <>
       <Header title="Done Recipes" />
-      <button
-        type="button"
-        onClick={ () => setItemTypeName('all') }
-        data-testid="filter-by-all-btn"
-      >
-        All
-      </button>
-      <button
-        type="button"
-        onClick={ () => setItemTypeName('food') }
-        data-testid="filter-by-food-btn"
-      >
-        Foods
-      </button>
-      <button
-        type="button"
-        onClick={ () => setItemTypeName('drink') }
-        data-testid="filter-by-drink-btn"
-      >
-        Drinks
-      </button>
+      <div id="btnInfo">
+        <button
+          type="button"
+          onClick={ () => setItemTypeName('all') }
+          data-testid="filter-by-all-btn"
+        >
+          All
+        </button>
+        <button
+          type="button"
+          onClick={ () => setItemTypeName('food') }
+          data-testid="filter-by-food-btn"
+        >
+          Foods
+        </button>
+        <button
+          type="button"
+          onClick={ () => setItemTypeName('drink') }
+          data-testid="filter-by-drink-btn"
+        >
+          Drinks
+        </button>
+      </div>
       { doneRecipes !== null && doneRecipes
         .filter((item) => item.type === (itemTypeName === 'all'
           ? item.type : itemTypeName))

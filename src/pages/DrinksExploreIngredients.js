@@ -33,28 +33,31 @@ function DrinksExploreIngredients() {
     <>
       <Header title="Explore Ingredients" />
       {/* <h1 data-testid="page-title">Explore Ingredients</h1> */}
-      { Ingredients[0] && Ingredients
-        .slice(0, limit)
-        .map(({ strIngredient1 }, index) => (
-          <button
-            type="button"
-            key={ index }
-            data-testid={ `${index}-ingredient-card` }
-            onClick={ async () => {
-              setDrink([]);
-              await getDrink(urlGenerator(strIngredient1));
-              history.push('/drinks');
-            } }
+      <div className="cardsContainer">
+
+        { Ingredients[0] && Ingredients
+          .slice(0, limit)
+          .map(({ strIngredient1 }, index) => (
+            <button
+              type="button"
+              key={ index }
+              data-testid={ `${index}-ingredient-card` }
+              onClick={ async () => {
+                setDrink([]);
+                await getDrink(urlGenerator(strIngredient1));
+                history.push('/drinks');
+              } }
             // precisa do requisito 17
-          >
-            <img
-              src={ `https://www.thecocktaildb.com/images/ingredients/${strIngredient1}-Small.png` }
-              alt="Card"
-              data-testid={ `${index}-card-img` }
-            />
-            <p data-testid={ `${index}-card-name` }>{ strIngredient1 }</p>
-          </button>
-        )) }
+            >
+              <img
+                src={ `https://www.thecocktaildb.com/images/ingredients/${strIngredient1}-Small.png` }
+                alt="Card"
+                data-testid={ `${index}-card-img` }
+              />
+              <p data-testid={ `${index}-card-name` }>{ strIngredient1 }</p>
+            </button>
+          )) }
+      </div>
       <Footer />
     </>
   );

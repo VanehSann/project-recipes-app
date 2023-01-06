@@ -45,7 +45,7 @@ function SearchBar() {
   };
 
   return (
-    <div>
+    <div className="search">
       <input
         type="text"
         placeholder="Search Recipe"

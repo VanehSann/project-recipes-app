@@ -89,7 +89,7 @@ function DrinkProgress() {
   };
 
   return (
-    <>
+    <section id="progress">
       <img
         data-testid="recipe-photo"
         alt="recipe-img"
@@ -149,7 +149,7 @@ function DrinkProgress() {
         Finish Recipes
       </button>
       { copiedIt && <p>Link copied!</p> }
-    </>
+    </section>
   );
 }
 

@@ -1,72 +1,238 @@
-.meals {
-  align-items: center;
-  background: #0fa36b;
-  color: #464646;
+/* ALL */
+#root {
+  background: white;
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
-  height: 100vh;
+}
+
+#recipes {
+  align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin: 2%;
+}
+
+#recipes img {
+  width: 50%;
+  border-radius: 2%;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root > div > header {
+  display: flex;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.rocksGlass {
-  animation: shake 1s infinite ease;
-  max-height: 80vh;
+/* LOGIN PAGES */
+
+#sectionLogin input {
+  border: 0.5px solid #000000;
+  padding: 5%;
+  border-radius: 5px;
+  background: white;
 }
 
-/*
-#iceLeft {
-  animation: clink .8s infinite ease;
-  opacity: 0.6;
-  transform-origin: 36px 66px;
+#sectionLogin button {
+  padding: 4% 0;
+  color: #201f25;
+  margin: 4px 0px;
+  border: 1px solid #333333;
+  font-weight: 700;
+  border-radius: 5px;
 }
 
-#iceRight {
-  animation: clink .8s .2s infinite ease;
-  opacity: 0.6;
-  transform-origin: 60px 78px;
-}
-*/
-
-.meals > .logo {
-  animation: shake 1.5s infinite ease;
-  color: aliceblue;
-  font-family: Montserrat , sans-serif;
-  font-size: 3em;
-  font-weight: 900;
+#sectionLogin label {
+  margin: 5px 0px;
 }
 
-@keyframes shake {
-
-  0% {
-    transform: rotate(5deg);
-  }
-
-  50% {
-    transform: rotate(-5deg);
-  }
-
-  100% {
-    transform: rotate(5deg);
-  }
+#sectionLogin fieldset {
+  display: grid;
+  border: 1px solid #404040;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0px 0px 12px #919191;
+  padding: 8% 5%;
+  background: #201f25;
 }
 
-@keyframes clink {
-
-  0% {
-    transform: rotate(-10deg);
-  }
-
-  50% {
-    transform: rotate(20deg);
-  }
-
-  100% {
-    transform: rotate(-10deg);
-  }
+#sectionLogin {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
 }
 
-.checked {
-  text-decoration: line-through;
+/* FOODS  */
+
+header {
+  display: flex;
+  justify-content: space-between;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  box-shadow: 0px 0px 8px #8e8e8e;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+footer button {
+  width: 34%;
+  background: #ffffff;
+  height: 80px;
+  border: 1px solid #e6e6e6;
+}
+
+.cardsContainer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardsContainer div,
+.cardsContainer button {
+  width: 200px;
+  box-shadow: 0px 0px 2px darkgrey;
+  display: grid;
+  border-radius: 0%;
+  text-align: center;
+  margin: 12px 7px 0px 0px;
+  border: 0;
+  background: #ffffff;
+  justify-items: center;
+}
+
+.cardsContainer > div > a {
+  color: black;
+  text-decoration: none;
+}
+
+.cardsContainer h2 {
+  color: #201f25;
+}
+
+.foodCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 12px lightgrey;
+}
+
+header button {
+  width: 10%;
+  background: white;
+  border: 0px;
+}
+
+#category {
+  display: flex;
+  padding: 1%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#category button {
+  background: #ffffff;
+  color: #201f25;
+  width: 100px;
+  cursor: pointer;
+  border: 0;
+  height: 50px;
+  font-weight: 700;
+}
+
+
+.CardImg {
+  border-radius: 10%;
+  width: 190px;
+  height: 160px;
+}
+
+h1 {
+  color: #201f25;
+  padding: 0% 4%;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+#btnInfo button {
+    width: 100%;
+    background: white;
+    border: 0;
+    box-shadow: 0px 0px 2px black;
+    height: 215px;
+
+}
+
+.search {
+  background: #efefef;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input[type="text"], .search button {
+  padding: 1%;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  background: white;
+  margin: 13px;
+}
+
+#progress {
+  background: white;
+  width: 100%;
+  margin: 0%;
+  justify-content: center;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#progress button {
+  width: 100px;
+  border-radius: 12%;
+  height: 50px;
+}
+
+#btnShareCopy {
+  display: flex;
+}
+
+div#btnShareCopy button {
+  background: white;
+}
+
+.instructions-container {width: 80%;}

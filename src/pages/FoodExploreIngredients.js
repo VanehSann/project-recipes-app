@@ -33,28 +33,31 @@ function FoodExploreIngredients() {
     <>
       <Header title="Explore Ingredients" />
       {/* <h1 data-testid="page-title">Explore Ingredients</h1> */}
-      { Ingredients[0] && Ingredients
-        .slice(0, limit)
-        .map(({ strIngredient }, index) => (
-          <button
-            type="button"
-            key={ index }
-            data-testid={ `${index}-ingredient-card` }
-            onClick={ async () => {
-              setFood([]);
-              await getFood(urlGenerator(strIngredient));
-              history.push('/foods');
-            } }
+      <div className="cardsContainer">
+
+        { Ingredients[0] && Ingredients
+          .slice(0, limit)
+          .map(({ strIngredient }, index) => (
+            <button
+              type="button"
+              key={ index }
+              data-testid={ `${index}-ingredient-card` }
+              onClick={ async () => {
+                setFood([]);
+                await getFood(urlGenerator(strIngredient));
+                history.push('/foods');
+              } }
             // precisa do requisito 17
-          >
-            <img
-              src={ `https://www.themealdb.com/images/ingredients/${strIngredient}-Small.png` }
-              alt="Card"
-              data-testid={ `${index}-card-img` }
-            />
-            <p data-testid={ `${index}-card-name` }>{ strIngredient }</p>
-          </button>
-        )) }
+            >
+              <img
+                src={ `https://www.themealdb.com/images/ingredients/${strIngredient}-Small.png` }
+                alt="Card"
+                data-testid={ `${index}-card-img` }
+              />
+              <p data-testid={ `${index}-card-name` }>{ strIngredient }</p>
+            </button>
+          )) }
+      </div>
       <Footer />
     </>
   );
