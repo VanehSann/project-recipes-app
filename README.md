@@ -1,6 +1,6 @@
 <div align="center">
   <b>
-    <a href="#---">English version README 🇺🇸 </a> •
+    <a href="#----">English version README 🇺🇸 </a> •
     <a href="#--">README em Português 🇧🇷</a>
   </b>
 </div>
