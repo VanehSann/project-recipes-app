@@ -17,35 +17,40 @@
   <table align="center">
    <tr><p align="center">
     <b>
-      <td> <a href="#-----sobre--">Sobre</a></td> 
-      <td>  <a href="#tecnologias-utilizadas--hard-skills-">Tecnologias utilizadas</a></td> 
-      <td>  <a href="#layout">Layout</a></td> 
+      <td> <a href="#---sobre--">Sobre</a></td> 
+      <td>  <a href="#tecnologias-utilizadas--hard-skills-">Tecnologias Utilizadas</a></td> 
+      <td>  <a href="#layout">Layout</a></td>
      </b>
     </p>
    </tr>
   </table>
-  
-  <br>
-  <blockquote>
-    <h2 align="left">
-   Sobre
+<br>
+<div>
+  <h2 align="left">
+    Sobre
   </h2>
-<table>
+  <table>
     <tr>
       <td><br>
-        <p align="left">Foi desenvolvido um app de receitas, utilizando conceitos modernos e atuais do React, que é o Hooks e o Context API. Foi um projeto em grupo e foi desenvolvido um aplicativo de receitas completo. Um dos maiores projetos que fizemos na Trybe. Uma aplicação perfeita, com direito a Login, comidas favoritas e desfavoritar comida, receita sendo feitas, com direito a uma checklist, página de pesquisas e filtragens por categorias. 
-</p><p align="left">Redux | biblioteca React-Redux  | Context API do React | React Hook ( useState, useContext, useEffect, Hooks customizados )
-</p></tr>
+        <p align="left">Foi desenvolvido um app de receitas, utilizando conceitos modernos e atuais do React, que é o Hooks e o Context API. Foi um projeto em grupo, simulando um aplicativo de receitas completo.
+        </p>
+        <blockquote>
+          Um dos maiores projetos que fizemos na Trybe, com 87 requisitos para serem implementados e/ou criados.
+          </blockquote>
+          <!--          <p> Uma ótima simulação, com direito a login, favoritar e desfavoritar receitas, página de receita feitas, com direito a uma checklist, página de pesquisas e filtragens por categorias.</p> -->
+          <p align="left"><b>Redux</b> | <b>biblioteca React-Redux</b> | <b>Context API do React</b> | <b>React Hook</b> <i>( useState, useContext, useEffect, Hooks customizados )</i>
+          </p>
+    </tr>
     <tr>
       <td><br>
         <p align="left">
-          <b>Autores:</b> Esse projeto foi desenvolvido por:
-    <a href="https://www.linkedin.com/in/vanehsann/" target="_blank"> Vanessa Santos </a>,
-    <a href="https://www.linkedin.com/in/rogerconsul/" target="_blank"> Róger Consul </a>,
-    <a href="https://www.linkedin.com/in/fefcufe/" target="_blank"> Fernanda Ferreira </a>,
-    <a href="https://www.linkedin.com/in/alex-horman-510094226/" target="_blank"> Alex Hornan </a> e 
-    <a href="https://www.linkedin.com/in/vitormemoria/" target="_blank"> Vitor Memoria</a>
-   como estudantes de desenvolvimento web na <b><a href="https://www.betrybe.com/" target="_blank"> Trybe </a></b>
+          <b>Esse projeto foi desenvolvido por:</b>
+          <a href="https://www.linkedin.com/in/vanehsann/" target="_blank"> Vanessa Santos </a>,
+          <a href="https://www.linkedin.com/in/rogerconsul/" target="_blank"> Róger Consul </a>,
+          <a href="https://www.linkedin.com/in/fefcufe/" target="_blank"> Fernanda Ferreira </a>,
+          <a href="https://www.linkedin.com/in/alex-horman-510094226/" target="_blank"> Alex Hornan </a> e
+          <a href="https://www.linkedin.com/in/vitormemoria/" target="_blank"> Vitor Memoria</a>
+          como estudantes de desenvolvimento web na <b><a href="https://www.betrybe.com/" target="_blank"> Trybe </a></b>
         </p>
       </td>
     <tr>
@@ -56,16 +61,14 @@
         </p>
       </td>
     </tr>
- 
-</table> 
-  </blockquote>
 
+  </table>
+</div>
 <br>
 <br>
 
-<blockquote>
+<div>
    <h2>Trabalhando atualmente</h2>
-  <p> Apesar do status do projeto está como concluido, há alguns pontos que pretendo melhorar na aplicação, que são: </p>
    <table>
   <tr>
     <td>
@@ -80,7 +83,7 @@
     <td>🟢</td>
   </tr>
 
-</table></blockquote>
+</table></div>
 
 <br>
 <br>
