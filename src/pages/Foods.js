@@ -20,7 +20,7 @@ function Foods(props) {
   }, []);
 
   return (
-    <>
+    <section id="foods">
       <Header { ...props } title="Foods" />
       {/* <h1 data-testid="page-title">Foods</h1> */}
       <FoodCategories />
@@ -31,7 +31,7 @@ function Foods(props) {
 
       </div>
       <Footer />
-    </>
+    </section>
 
   );
 }

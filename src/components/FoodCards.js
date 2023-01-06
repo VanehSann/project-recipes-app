@@ -9,7 +9,7 @@ function Cards({ meal, index }) {
 
   const { strMeal, strMealThumb } = meal;
   return (
-    <div data-testid={ `${index}-recipe-card` }>
+    <div data-testid={ `${index}-recipe-card` } className="foodCard">
       <Link
         key={ meal.idMeal }
         to={ `/foods/${meal.idMeal}` }

@@ -12,8 +12,8 @@ function Profile({ history }) {
     <>
       <Header title="Profile" />
       {/* <h1 data-testid="page-title">Profile</h1> */}
-      <div>
-        <p data-testid="profile-email">
+      <div id="btnInfo">
+        <p data-testid="profile-email" align="center">
           {localStorage.getItem('user')}
         </p>
         <button
@@ -39,8 +39,8 @@ function Profile({ history }) {
         </button>
         <br />
         <br />
-        <Footer />
       </div>
+      <Footer />
 
     </>
   );

@@ -22,28 +22,30 @@ function FoodsExplore({ history }) {
   return (
     <>
       <Header title="Explore Foods" />
-      {/* <h1 data-testid="page-title">Explore Foods</h1> */}
-      <button
-        type="button"
-        data-testid="explore-by-ingredient"
-        onClick={ () => history.push('/explore/foods/ingredients') }
-      >
-        By Ingredient
-      </button>
-      <button
-        data-testid="explore-by-nationality"
-        type="button"
-        onClick={ () => history.push('/explore/foods/nationalities') }
-      >
-        By Nationality
-      </button>
-      <button
-        data-testid="explore-surprise"
-        type="button"
-        onClick={ () => history.push(`/foods/${randomSupriseFoods}`) }
-      >
-        Surprise me!
-      </button>
+      <div id="btnInfo">
+        {/* <h1 data-testid="page-title">Explore Foods</h1> */}
+        <button
+          type="button"
+          data-testid="explore-by-ingredient"
+          onClick={ () => history.push('/explore/foods/ingredients') }
+        >
+          By Ingredient
+        </button>
+        <button
+          data-testid="explore-by-nationality"
+          type="button"
+          onClick={ () => history.push('/explore/foods/nationalities') }
+        >
+          By Nationality
+        </button>
+        <button
+          data-testid="explore-surprise"
+          type="button"
+          onClick={ () => history.push(`/foods/${randomSupriseFoods}`) }
+        >
+          Surprise me!
+        </button>
+      </div>
       <Footer />
     </>
   );

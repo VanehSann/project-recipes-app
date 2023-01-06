@@ -117,7 +117,7 @@ function DrinksDetails() {
   };
 
   return (
-    <>
+    <section id="progress">
       <img
         data-testid="recipe-photo"
         alt="recipe-img"
@@ -186,7 +186,7 @@ function DrinksDetails() {
         >
           {valueBtn(modifyBottom)}
         </button>) }
-    </>
+    </section>
   );
 }
 

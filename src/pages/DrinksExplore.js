@@ -22,21 +22,23 @@ function DrinksExplore({ history }) {
   return (
     <>
       <Header title="Explore Drinks" />
-      {/* <h1 data-testid="page-title">Explore Drinks</h1> */}
-      <button
-        type="button"
-        data-testid="explore-by-ingredient"
-        onClick={ () => history.push('/explore/drinks/ingredients') }
-      >
-        By Ingredient
-      </button>
-      <button
-        data-testid="explore-surprise"
-        type="button"
-        onClick={ () => history.push(`/drinks/${randomSupriseDrinks}`) }
-      >
-        Surprise me!
-      </button>
+      <div id="btnInfo">
+        {/* <h1 data-testid="page-title">Explore Drinks</h1> */}
+        <button
+          type="button"
+          data-testid="explore-by-ingredient"
+          onClick={ () => history.push('/explore/drinks/ingredients') }
+        >
+          By Ingredient
+        </button>
+        <button
+          data-testid="explore-surprise"
+          type="button"
+          onClick={ () => history.push(`/drinks/${randomSupriseDrinks}`) }
+        >
+          Surprise me!
+        </button>
+      </div>
       <Footer />
     </>
   );

@@ -121,13 +121,13 @@ function FoodsDetails() {
   };
 
   return (
-    <>
+    <section id="progress">
       <img
         data-testid="recipe-photo"
         alt="recipe-img"
         src={ recipeDetails.strMealThumb }
       />
-      <div>
+      <div id="btnShareCopy">
         <h1 data-testid="recipe-title">
           {recipeDetails.strMeal}
         </h1>
@@ -201,7 +201,7 @@ function FoodsDetails() {
         >
           {valueBtn(modifyBottom)}
         </button>) }
-    </>
+    </section>
   );
 }
 

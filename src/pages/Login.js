@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
-import React, { useEffect, useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import RecipesContext from '../context/RecipesContext';
+import logo from '../images/logo.png';
 
 function Login({ history }) {
   const { email, setEmail, password,
@@ -25,34 +26,37 @@ function Login({ history }) {
   }, [email, password, setButton]);
 
   return (
-    <div>
-      <label htmlFor="email-input">
-        <input
-          type="text"
-          data-testid="email-input"
-          id="email-input"
-          value={ email }
-          onChange={ (e) => setEmail(e.target.value) }
-        />
-      </label>
-      <label htmlFor="password-input">
-        <input
-          data-testid="password-input"
-          type="password"
-          id="password-input"
-          value={ password }
-          onChange={ (e) => setPassword(e.target.value) }
-        />
-      </label>
-      <button
-        type="button"
-        data-testid="login-submit-btn"
-        disabled={ isButtonDisabled }
-        onClick={ handleClick }
-      >
-        Enter
-      </button>
-    </div>
+    <section id="sectionLogin">
+      <img src={ logo } alt="logo" />
+      <fieldset>
+        <label htmlFor="email-input">
+          <input
+            type="text"
+            data-testid="email-input"
+            id="email-input"
+            value={ email }
+            onChange={ (e) => setEmail(e.target.value) }
+          />
+        </label>
+        <label htmlFor="password-input">
+          <input
+            data-testid="password-input"
+            type="password"
+            id="password-input"
+            value={ password }
+            onChange={ (e) => setPassword(e.target.value) }
+          />
+        </label>
+        <button
+          type="button"
+          data-testid="login-submit-btn"
+          disabled={ isButtonDisabled }
+          onClick={ handleClick }
+        >
+          Enter
+        </button>
+      </fieldset>
+    </section>
   );
 }
 
