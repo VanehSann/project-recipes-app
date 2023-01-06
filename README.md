@@ -7,16 +7,17 @@
 <br>
 <br>
 <div align="center">
- <img src="/logo.png" alt="recipes app project logo" width="150px"/>
- <h1> App de Receitas <span> ( 🇧🇷 )  </span> </h1>
-</div>
+ <img src="/logo.png" alt="recipes app project logo" width="300px"/>
+  <br>
+ <h1> 🇧🇷 </h1> 
+</div> 
 <br>
 <br>
 <section>
   <table align="center">
    <tr><p align="center">
     <b>
-      <td> <a href="#---sobre--">Sobre</a></td> 
+      <td> <a href="#-----sobre--">Sobre</a></td> 
       <td>  <a href="#tecnologias-utilizadas--hard-skills-">Tecnologias utilizadas</a></td> 
       <td>  <a href="#layout">Layout</a></td> 
      </b>
