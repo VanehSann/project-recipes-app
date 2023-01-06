@@ -7,7 +7,7 @@
 <br>
 <br>
 <div align="center">
- <img src="/logo.png" alt="recipes app project logo" />
+ <img src="/logo.png" alt="recipes app project logo" width="150px"/>
  <h1> App de Receitas <span> ( 🇧🇷 )  </span> </h1>
 </div>
 <br>
