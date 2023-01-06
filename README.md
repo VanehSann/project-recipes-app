@@ -140,10 +140,10 @@ Layout
         <br/>
 <div align="left">
          <h1>Entre no site da aplicação</h1>
+  <p>Site: <a href="https://appdereceitas.vercel.app/">https://appdereceitas.vercel.app/</a></p>
         <p>Tudo que você precisa é que digitar um email válido no campo de email, exemplo: `abc@abc.com` e digitar 6 caracteres no campo de senha, por exemplo: `123456` e você pode simular todo o processo da aplicação:</p>
         <img src="/demo.png" />
         <br>
-       <p>Site: <a href="https://appdereceitas.vercel.app/">https://appdereceitas.vercel.app/</a></p>
    </div>
     </section>
 <div align="center">
