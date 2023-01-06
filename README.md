@@ -120,11 +120,10 @@ Tecnologias utilizadas ( Hard Skills )
 Layout
 </h2>
  <table>  
+ <tr>
+  <td><img src="./recording2_2_-_1_.gif" /></td></tr>
  <tr><td> 
-     WEBSITE
- </td><td><img src="./tryunfo.gif" /></td></tr>
- <tr><td> 
- MOBILE
+<img src="./recording1_1_-_1_.gif" />
  </td></tr> 
     </table>
   </div>
