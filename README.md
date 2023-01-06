@@ -1,7 +1,7 @@
 <div align="center">
   <b>
-    <a href="#---1">English version README 🇺🇸 </a> •
-    <a href="#-app-de-receitas-------">README em Português 🇧🇷</a>
+    <a href="#---">English version README 🇺🇸 </a> •
+    <a href="#--">README em Português 🇧🇷</a>
   </b>
 </div>
 <br>
